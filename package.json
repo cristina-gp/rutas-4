@@ -1,0 +1,36 @@
+{
+  "name": "rutas-4",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000u\u0000t\u0000a\u0000s\u0000-\u00004\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "contract:emit": "prisma contract emit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristina-gp/rutas-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cristina-gp/rutas-4/issues"
+  },
+  "homepage": "https://github.com/cristina-gp/rutas-4#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "@prisma/orm-mongo": "^8.0.0-rc.23",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongodb": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
+}
